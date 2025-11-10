@@ -4,7 +4,7 @@ The Obsidian–Zotero integration template allows you to:
 
 - Export annotations, highlights, and attached images from Zotero into Markdown files in your Obsidian vault.
 
-- Uses the Zotero comments as sections, and .
+- Uses the Zotero comments as sections.
 
 - Generate Pandoc/PDF-ready figure blocks for images from Zotero PDFs.
 
