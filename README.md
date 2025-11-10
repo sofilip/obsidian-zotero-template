@@ -52,3 +52,5 @@ templates/zotero_annotation_template.md → your Jinja-style template file.
     - Bibliography style: IEEE (use whatever you want, don't forget to change the .csl file)
    
   5. Use the Zotero Integration Plugin (ctrl+p), in Obsidian, and select the file you'd like to export, type the format_name you entered.
+
+> Note: I used the preconfigured Zotero template.tex for the example.pdf
