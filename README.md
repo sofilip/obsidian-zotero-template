@@ -42,6 +42,7 @@ templates/zotero_annotation_template.md → your Jinja-style template file.
   2. Configure your Obsidian–Zotero plugin.
 
   3. Add a new Format:
+     
     - Name: format_name
     - Output path: zotero_exports/{{citekey}}/{{citekey}}.md
     - Image output path: zotero_exports/{{citekey}}/images/
@@ -49,4 +50,4 @@ templates/zotero_annotation_template.md → your Jinja-style template file.
     - Template file: _templates/zotero_annotation_template.md
     - Bibliography style: IEEE (use whatever you want, don't forget to change the .csl file)
    
-  4. Use the Zotero Integration Plugin (ctrl+p), in Obsidian, and select the file you'd like to export, type the format_name you entered.
+  5. Use the Zotero Integration Plugin (ctrl+p), in Obsidian, and select the file you'd like to export, type the format_name you entered.
