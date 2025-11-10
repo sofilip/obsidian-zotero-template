@@ -35,7 +35,7 @@ exported_file → contains Obsidian Markdown notes generated from Zotero annotat
 
 templates/zotero_annotation_template.md → your Jinja-style template file.
 
-# How to Use in GitHub Repo
+# Usage
 
   1. Place the template.md in your obsidian /_templates folder.
 
