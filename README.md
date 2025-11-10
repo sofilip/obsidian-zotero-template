@@ -16,6 +16,7 @@ The Obsidian–Zotero integration template allows you to:
 
 A typical GitHub repository setup for this workflow:
 
+```
 MyRepo/                                  # obsidian volt
 ├── _templates/
 │   └── zotero_annotation_template.md
@@ -25,7 +26,7 @@ MyRepo/                                  # obsidian volt
 │   │       ├── img1.png
 │   │       └── img2.png
 │   └── file.md
-
+```
 
 ## Explanation
 
