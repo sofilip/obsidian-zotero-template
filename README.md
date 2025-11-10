@@ -4,6 +4,8 @@ The Obsidian–Zotero integration template allows you to:
 
 - Export annotations, highlights, and attached images from Zotero into Markdown files in your Obsidian vault.
 
+- It uses the highlight colors, with the related tags.
+
 - Generate Pandoc/PDF-ready figure blocks for images from Zotero PDFs.
 
 - Maintain consistent folder structure and absolute or relative paths for files, making the repository portable.
@@ -15,7 +17,7 @@ The Obsidian–Zotero integration template allows you to:
 A typical GitHub repository setup for this workflow:
 
 MyRepo/                                  # obsidian volt
-├── templates/
+├── _templates/
 │   └── zotero_annotation_template.md
 ├── zotero_exports/                      # zotero-exported attachments
 │   ├── exported_file/
@@ -35,6 +37,16 @@ templates/zotero_annotation_template.md → your Jinja-style template file.
 
 # How to Use in GitHub Repo
 
-Place the template.md in your obsidian /_templates folder.
+  1. Place the template.md in your obsidian /_templates folder.
 
-Configure your Obsidian–Zotero plugin (e.g., Zotero Integration, mdnotes, or Zotfile) to use this template for exported annotations.
+  2. Configure your Obsidian–Zotero plugin.
+
+  3. Add a new Format:
+    - Name: format_name
+    - Output path: zotero_exports/{{citekey}}/{{citekey}}.md
+    - Image output path: zotero_exports/{{citekey}}/images/
+    - Image Base Name: {{citekey}}
+    - Template file: _templates/zotero_annotation_template.md
+    - Bibliography style: IEEE (use whatever you want, don't forget to change the .csl file)
+   
+  4. Use the Zotero Integration Plugin (ctrl+p), in Obsidian, and select the file you'd like to export, type the format_name you entered.
