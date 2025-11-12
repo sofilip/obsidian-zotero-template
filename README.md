@@ -12,9 +12,9 @@ The Obsidian–Zotero integration template allows you to:
 
 - Keep citekeys, figure labels, and captions automatically.
 
-# Folder Structure in GitHub
+# Folder Structure in Obsidian
 
-A typical GitHub repository setup for this workflow:
+My Obsidian vault setup for this workflow:
 
 ```
 MyRepo/                                  # obsidian volt
